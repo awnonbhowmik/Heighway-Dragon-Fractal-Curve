@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Heighway Dragon Fractal Curve", "Heighway Dragon Fractal Curve.pyproj", "{5ED69353-24E4-4E88-ABB5-797AAA5B2C12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ED69353-24E4-4E88-ABB5-797AAA5B2C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED69353-24E4-4E88-ABB5-797AAA5B2C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FA98965-658B-42C5-833B-2DBE99E0A4EC}
+	EndGlobalSection
+EndGlobal
