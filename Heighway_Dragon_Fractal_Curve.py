@@ -6,21 +6,20 @@ wn.bgcolor("black")
 turtle.pencolor("green")
  
 def dragoncurve(l,n):
-  for i in range(1):
-    def x(n):
-            if n==0:
-                    return
-            x(n-1)
-            turtle.right(90)
-            y(n-1)
-            turtle.forward(l)
-    def y(n):
-            if n==0:
-                    return
-            turtle.forward(l)
-            x(n-1)
-            turtle.left(90)
-            y(n-1)
-    turtle.fd(l)
-    x(n)
+  def x(n):
+    if n==0:
+      return
+    x(n-1)
+    turtle.right(90)
+    y(n-1)
+    turtle.forward(l)
+  def y(n):
+    if n==0:
+      return
+    turtle.forward(l)
+    x(n-1)
+    turtle.left(90)
+    y(n-1)
+  turtle.fd(l)
+  x(n)
 dragoncurve(5,15)
