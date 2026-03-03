@@ -23,3 +23,4 @@ def dragoncurve(l,n):
   turtle.fd(l)
   x(n)
 dragoncurve(5,15)
+turtle.done()
